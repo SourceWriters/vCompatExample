@@ -1,0 +1,5 @@
+main: net.sourcewriters.minecraft.vexample.ExamplePlugin
+name: vCompatExample
+version: ${project.version}
+author: SourceWriters
+api-version: 1.13
