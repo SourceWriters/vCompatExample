@@ -4,7 +4,7 @@
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>net.sourcewriters.minecraft</groupId>
 	<artifactId>vcompat-example</artifactId>
-	<version>0.1</version>
+	<version>0.2</version>
 	<name>vCompatExample</name>
 	<description>An example implementation of the vCompat updater</description>
 	
@@ -86,7 +86,7 @@
 							</excludes>
 						</filter>
 					</filters>
-					<createDependencyReducedPom>false</createDependencyReducedPom>
+					<createDependencyReducedPom>true</createDependencyReducedPom>
 				</configuration>
 			</plugin>
 			<plugin>

@@ -7,13 +7,8 @@ public class ExamplePlugin extends JavaPlugin {
     private ExampleApp app;
 
     @Override
-    public void onLoad() {
-        app = new ExampleApp(this);
-    }
-
-    @Override
     public void onEnable() {
-        app.start();
+        (app = new ExampleApp(this)).start();
     }
 
     @Override
