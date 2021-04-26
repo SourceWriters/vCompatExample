@@ -12,7 +12,7 @@ final class ExampleApp extends CompatApp {
     private final ExamplePlugin plugin;
 
     public ExampleApp(ExamplePlugin plugin) {
-        super(plugin.getName(), 2);
+        super(plugin.getName(), 2 /* This indicates the major version that should be looked for */);
         this.plugin = plugin;
     }
 
