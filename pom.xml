@@ -4,7 +4,7 @@
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>net.sourcewriters.minecraft</groupId>
 	<artifactId>vcompat-example</artifactId>
-	<version>0.2</version>
+	<version>0.3</version>
 	<name>vCompatExample</name>
 	<description>An example implementation of the vCompat updater</description>
 	
@@ -52,7 +52,7 @@
 		<dependency>
 		    <groupId>com.github.SourceWriters</groupId>
 		    <artifactId>vCompatUpdater</artifactId>
-		    <version>v0.1</version>
+		    <version>v0.3</version>
 		</dependency>
 	</dependencies>
 	
