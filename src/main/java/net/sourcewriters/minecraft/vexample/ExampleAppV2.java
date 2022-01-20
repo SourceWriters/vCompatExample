@@ -7,7 +7,7 @@ import net.sourcewriters.minecraft.vcompat.reflection.VersionControl;
 import net.sourcewriters.minecraft.vcompat.updater.CompatApp;
 import net.sourcewriters.minecraft.vcompat.updater.Reason;
 
-final class ExampleApp extends CompatApp {
+final class ExampleAppV2 extends CompatApp {
 
     private final ExamplePlugin plugin;
 
@@ -34,6 +34,7 @@ final class ExampleApp extends CompatApp {
 
     @Override
     protected void onShutdown() {
+        VersionControl.get().shutdown();
         // Write your shutdown code related to vCompat here
     }
 
