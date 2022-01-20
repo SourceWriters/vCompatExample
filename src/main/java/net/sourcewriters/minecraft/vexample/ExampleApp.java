@@ -34,7 +34,6 @@ final class ExampleApp extends CompatApp {
 
     @Override
     protected void onShutdown() {
-        VersionControl.get().shutdown();
         // Write your shutdown code related to vCompat here
     }
 
