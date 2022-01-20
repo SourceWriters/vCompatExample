@@ -43,12 +43,23 @@
 			</exclusions>
 		</dependency>
 		
+		<!-- Only one of both dependencies can be used -->
+		<!-- Please note that the latest version is always recommended -->
+		<dependency>
+			<groupId>net.sourcewriters.minecraft</groupId>
+			<artifactId>vcompat</artifactId>
+			<version>3.0.0</version>
+			<scope>provided</scope>
+		</dependency>
 		<dependency>
 			<groupId>net.sourcewriters.minecraft</groupId>
 			<artifactId>vcompat</artifactId>
 			<version>2.0.0</version>
 			<scope>provided</scope>
 		</dependency>
+		<!-- Only one of both dependencies can be used -->
+		
+		
 		<dependency>
 		    <groupId>com.github.SourceWriters</groupId>
 		    <artifactId>vCompatUpdater</artifactId>
